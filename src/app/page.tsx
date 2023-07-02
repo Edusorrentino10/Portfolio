@@ -1,95 +1,112 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+'use client'
+
+import { HeaderComponent } from '@/components/Header'
+import { MainPage } from '@/components/MainPage'
+import { Container } from './styles'
+import { useTheme } from '@/contexts/useTheme'
+import { MenuContext } from '@/contexts/menuMobileContext'
+import { motion, useAnimation } from 'framer-motion'
+import { useInView } from 'react-intersection-observer'
+import { useEffect } from 'react'
 
 export default function Home() {
+  const { theme } = useTheme()
+  const { toggleSidebar, handleMenuMobile } = MenuContext()
+
+  const { ref, inView } = useInView()
+  const animation = useAnimation()
+  const animation2 = useAnimation()
+
+  useEffect(() => {
+    if (inView) {
+      animation.start({
+        x: 0,
+        transition: {
+          type: 'spring',
+          duration: 1.5,
+          bounce: 0.2,
+        },
+      })
+
+      animation2.start({
+        x: 0,
+        transition: {
+          type: 'spring',
+          duration: 2.5,
+          bounce: 0.1,
+        },
+      })
+    }
+    if (!inView) {
+      animation.start({ x: '-100vw' })
+      animation2.start({ x: '-100vw' })
+    }
+  }, [animation, animation2, inView])
+
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <Container className={theme}>
+      <HeaderComponent
+        toggleSidebar={toggleSidebar}
+        handleMenuMobile={handleMenuMobile}
+      />
+      <MainPage toggleSidebar={toggleSidebar} />
+
+      <div
+        ref={ref}
+        id="about"
+        style={{
+          marginTop: '50px',
+          height: '100vh',
+          width: '100vw',
+          color: 'white',
+          background: 'red',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+          gap: '50px',
+        }}
+      >
+        {' '}
+        <motion.h1 animate={animation}>
+          Uma pirueta, duas piruetas, dale, dale
+        </motion.h1>
+        <motion.h2 animate={animation2}>
+          Uma pirueta, duas piruetas, dale, dale
+        </motion.h2>
+        <motion.h2 animate={animation2}>
+          Uma pirueta, duas piruetas, dale, dale
+        </motion.h2>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div
+        id="skills"
+        style={{
+          height: '100vh',
+          width: '100vw',
+          color: 'white',
+          background: 'blue',
+        }}
+      >
+        <h1>Uma pirueta, duas piruetas, dale, dale</h1>
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div
+        id="projects"
+        style={{ height: '100vh', width: '100vw', background: 'yellow' }}
+      >
+        <h1>Uma pirueta, duas piruetas, dale, dale</h1>
       </div>
-    </main>
+      <div
+        id="experience"
+        style={{ height: '100vh', width: '100vw', background: 'pink' }}
+      >
+        <h1>Uma pirueta, duas piruetas, dale, dale</h1>
+      </div>
+      <div
+        id="contact"
+        style={{ height: '100vh', width: '100vw', background: 'orange' }}
+      >
+        <h1>Uma pirueta, duas piruetas, dale, dale</h1>
+      </div>
+    </Container>
   )
 }

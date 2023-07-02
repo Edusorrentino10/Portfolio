@@ -1,0 +1,14 @@
+{
+  "translation": {
+    "about": "About me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+
+    "welcome": "Hello, I'm",
+    "job": "Front-end Developer",
+    "welcome-message": "Welcome to my portfolio site, where I share my skills, projects, experiences and tell you a little more about myself.",
+    "email": "E-mail"
+  }
+}

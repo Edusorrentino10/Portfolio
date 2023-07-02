@@ -1,0 +1,13 @@
+{
+  "translation": {
+    "about": "Sobre mim",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "experience": "Experiência",
+    "contact": "Contato",
+
+    "welcome": "Olá, eu sou",
+    "job": "Desenvolvedor front-end",
+    "welcome-message": "Seja bem-vindo ao meu site portfólio, onde compartilho minhas habilidades, projetos, experiências e conto um pouco mais sobre mim."
+  }
+}
