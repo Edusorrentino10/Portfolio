@@ -14,7 +14,7 @@ export const HomeContainer = styled('main', {
     'linear-gradient(135deg, $backgroundHomeLeft 50%, $primary 50%)',
 
   '@media (max-width: 720px)': {
-    paddingTop: '140px',
+    paddingTop: '100px',
   },
 })
 
@@ -22,8 +22,14 @@ export const FlexDiv = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
+  gap: '5px',
 
   marginBottom: '150px',
+
+  '@media (max-width: 720px)': {
+    alignItems: 'center',
+    gap: '8px',
+  },
 
   '@media (max-width: 630px)': {
     marginLeft: '5%',
@@ -32,6 +38,7 @@ export const FlexDiv = styled('div', {
   '@media (max-width: 550px)': {
     marginLeft: '7%',
     marginRight: '7%',
+    gap: '5px',
   },
 
   '@media (max-width: 460px)': {
@@ -61,14 +68,7 @@ export const WelcomeTitle = styled('h3', {
 
   '@media (max-width: 830px)': {
     fontSize: '1.15rem',
-  },
-
-  '@media (max-width: 720px)': {
-    fontSize: '1.1rem',
-  },
-
-  '@media (max-width: 485px)': {
-    fontSize: '1rem',
+    fontWeight: 'bold',
   },
 })
 
@@ -99,47 +99,58 @@ export const Name = styled('h1', {
   },
 
   '@media (max-width: 720px)': {
-    fontSize: '3rem',
-    lineHeight: 1.4,
+    fontSize: '2.5rem',
+    textTransform: 'uppercase',
   },
 
   '@media (max-width: 530px)': {
-    fontSize: '1.75rem',
+    fontSize: '1.4rem',
   },
 
-  '@media (max-width: 380px)': {
-    fontSize: '1.6rem',
+  '@media (max-width: 400px)': {
+    fontSize: '1.3rem',
   },
 
-  '@media (max-width: 365px)': {
-    fontSize: '1.5rem',
+  '@media (max-width: 375px)': {
+    fontSize: '1.2rem',
   },
+
+  // '@media (max-width: 380px)': {
+  //   fontSize: '1.6rem',
+  // },
+
+  // '@media (max-width: 365px)': {
+  //   fontSize: '1.5rem',
+  // },
 })
 
-export const JobDescription = styled('h3', {
+export const JobDescription = styled('div', {
   fontSize: '2.15rem',
   fontFamily: 'Roboto, sans-serif',
-  lineHeight: 1.3,
   fontWeight: 700,
   position: 'relative',
   display: 'inline-block',
   textTransform: 'uppercase',
 
   color: '$primary',
-  background: '$tertiary',
-
-  paddingTop: '4px',
-  paddingBottom: '3px',
-  paddingLeft: '14px',
-  paddingRight: '14px',
-
-  borderRadius: '2px',
 
   cursor: 'default',
   userSelect: 'none',
 
   marginTop: '5px',
   marginLeft: '4px',
+  padding: '5px',
+
+  span: {
+    background: '$tertiary',
+    padding: '10px',
+    borderRadius: '2px',
+
+    '@media (max-width: 550px)': {
+      fontSize: '80%',
+      padding: '6px',
+    },
+  },
 
   '@media (max-width: 1055px)': {
     fontSize: '1.9rem',
@@ -157,20 +168,21 @@ export const JobDescription = styled('h3', {
     fontSize: '1.4rem',
   },
 
-  '@media (max-width: 530px)': {
+  '@media (max-width: 550px)': {
     fontSize: '1.3rem',
+    marginTop: '0px',
   },
 
   '@media (max-width: 485px)': {
     fontSize: '1.2rem',
-    paddingBottom: '0px',
-    paddingLeft: '6px',
-    paddingRight: '6px',
+    // paddingBottom: '0px',
+    // paddingLeft: '6px',
+    // paddingRight: '6px',
   },
 
   '@media (max-width: 385px)': {
     fontSize: '1rem',
-    paddingBottom: '1px',
+    // paddingBottom: '1px',
   },
 
   // '&:after': {
@@ -217,6 +229,11 @@ export const WelcomeMessage = styled('p', {
     maxWidth: '90%',
   },
 
+  '@media (max-width: 550px)': {
+    textAlign: 'center',
+    marginTop: '30px',
+  },
+
   '@media (max-width: 485px)': {
     maxWidth: '530px',
   },
@@ -230,6 +247,10 @@ export const FlexBox = styled('div', {
 
   marginTop: '40px',
   zIndex: 1,
+
+  '@media (max-width: 550px)': {
+    gap: '20px',
+  },
 })
 
 export const ButtonBox = styled('div', {
@@ -254,18 +275,6 @@ export const ButtonBox = styled('div', {
     fontSize: '0.725rem',
     fontWeight: 'bold',
     textTransform: 'uppercase',
-  },
-
-  '@media (max-width: 1055px)': {
-    span: {
-      fontSize: '0.7rem',
-    },
-  },
-
-  '@media (max-width: 520px)': {
-    span: {
-      fontSize: '0.6rem',
-    },
   },
 
   '@media (max-width: 420px)': {

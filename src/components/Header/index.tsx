@@ -51,19 +51,19 @@ export function HeaderComponent({
         </Link>
       )}
       <FlexLinksStyles toggleSidebar={toggleSidebar}>
-        <Link className={LinkStyles} href="#about">
+        <Link className={LinkStyles} shallow={true} href="#about">
           {t('about')}
         </Link>
-        <Link className={LinkStyles} href="#skills">
+        <Link className={LinkStyles} shallow={true} href="#skills">
           {t('skills')}
         </Link>
-        <Link className={LinkStyles} href="#projects">
+        <Link className={LinkStyles} shallow={true} href="#projects">
           {t('projects')}
         </Link>
-        <Link className={LinkStyles} href="#experience">
+        <Link className={LinkStyles} shallow={true} href="#experience">
           {t('experience')}
         </Link>
-        <Link className={LinkStyles} href="#contact">
+        <Link className={LinkStyles} shallow={true} href="#contact">
           {t('contact')}
         </Link>
       </FlexLinksStyles>

@@ -51,7 +51,9 @@ export function MainPage({ toggleSidebar }: MainPageProps) {
           </span>
         </Name>
         <div>
-          <JobDescription>{t('job')}</JobDescription>
+          <JobDescription>
+            <span>{t('job')}</span>
+          </JobDescription>
         </div>
         <WelcomeMessage>{t('welcome-message')}</WelcomeMessage>
         <FlexBox>
