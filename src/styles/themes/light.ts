@@ -9,5 +9,8 @@ export const lightTheme = createTheme({
     backgroundHomeLeft: '#F2F2F2',
     buttonHover: '#FAFAFA',
     buttonShadow: 'rgba(0, 0, 0, 0.25)',
+
+    backgroundSkills: '#EAEAEA',
+    backgroundGithub: 'rgba(110, 110, 110, 0.35)',
   },
 })

@@ -9,6 +9,27 @@
     "welcome": "Hello, I'm",
     "job": "Front-end Developer",
     "welcome-message": "Welcome to my portfolio site, where I share my skills, projects, experiences and tell you a little more about myself.",
-    "email": "E-mail"
+    "aboutTitle":"About me",
+    "topic1aboutme": "I consider myself a proactive and patient person. With my constant effort, I seek to face challenges in a determined way and achieve my goals.",
+    "topic2aboutme": "I study web development since 2021, focusing on Front-end.",
+    "topic3aboutme": "Currently studying Computer Science (2019-2023).",
+    "topic4aboutme": "At the moment, I'm focused on Front-end studies. However, I am interested in expanding my expertise to also include Backend and Mobile in the future.",
+    "skillsTitle": "Skills",
+    "skillsTexts": "Here are some other tools I often use or have used:",
+    "projectsTitle": "Projects",
+    "projectTextIntercambyus": "Design made by me in Figma, it consists of an exchange agency website that has responsiveness for all screen sizes. Project carried out using React, Next, Typescript, Stitches, React-Hook-Form and Lottie (for the loading and error animations).",
+    "projectTitleFinancial": "Financial System",
+    "projectTextFinancial": "The financial system project was developed to carry out the monthly control of finances, being able to add an expense or a gain each month, with the option of excluding a registered item if necessary. The system has adequate responsiveness for any device and was made using React, Typescript and Styled-Components.",
+    "galleryTitle": "Gallery",
+    "galleryText": "Photo gallery application that stores images in Firebase sent in the form of PNG, JPG and JPEG types and are displayed by the Front-end. The app has complete responsiveness and was created using, in addition to Firebase, React, Typescript, Styled-Components and Lottie.",
+    "multiStepTitle": "Multi-Step Form",
+    "multiStepText": "It's based on an interactive multi-step login system. The system has 3 steps and was made to register developers. React, Typescript and Styled Components were used.",
+    "experienceTitle": "Experiences",
+    "mainstreamPeriod": "(2022 - Present)",
+    "mainstreamDescription": "Since the beginning of the project, I've been working as a Front-end Developer, working closely with the back-end team to perform route integrations. I currently use React and Next in development along with the Stitches styling tool.",
+    "expTitleGithub": "Personal Projects",
+    "expTextGithub": "Study and Practice",
+    "expPeriodGithub": "(2021 - Present)",
+    "githubDescription": "Since May 2021, I have dedicated myself to the study and practice of web development, strengthening my knowledge by creating projects on GitHub."
   }
 }

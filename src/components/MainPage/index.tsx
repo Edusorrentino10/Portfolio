@@ -95,7 +95,7 @@ export function MainPage({ toggleSidebar }: MainPageProps) {
           </Link>
         </FlexBox>
       </FlexDiv>
-      <Link href="#about">
+      <a href="#about">
         <ArrowDown toggleSidebar={toggleSidebar}>
           <CaretDown
             className={ArrowDownStyles}
@@ -104,7 +104,7 @@ export function MainPage({ toggleSidebar }: MainPageProps) {
             color={theme === darkTheme ? '#f4f4f4' : '#242424'}
           />
         </ArrowDown>
-      </Link>
+      </a>
     </HomeContainer>
   )
 }

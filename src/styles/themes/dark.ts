@@ -9,5 +9,8 @@ export const darkTheme = createTheme({
     backgroundHomeLeft: '#252525',
     buttonHover: '#3E3E3E',
     buttonShadow: 'rgba(0, 0, 0, 0.25)',
+
+    backgroundSkills: '#2F2F2F',
+    backgroundGithub: 'rgba(110, 110, 110, 0.95)',
   },
 })

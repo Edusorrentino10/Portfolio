@@ -8,6 +8,28 @@
 
     "welcome": "Olá, eu sou",
     "job": "Desenvolvedor front-end",
-    "welcome-message": "Seja bem-vindo ao meu site portfólio, onde compartilho minhas habilidades, projetos, experiências e conto um pouco mais sobre mim."
+    "welcome-message": "Seja bem-vindo ao meu site portfólio, onde compartilho minhas habilidades, projetos, experiências e conto um pouco mais sobre mim.",
+    "aboutTitle":"Sobre mim",
+    "topic1aboutme": "Me considero uma pessoa proativa e paciente. Com meu esforço constante, busco enfrentar desafios de forma determinada e alcançar meus objetivos.",
+    "topic2aboutme": "Estudo desenvolvimento web desde 2021, com foco em Front-end.",
+    "topic3aboutme": "Atualmente cursando Ciência da Computação (2019-2023).",
+    "topic4aboutme": "No momento, estou focado nos estudos de Front-end. No entanto, tenho interesse em ampliar minha especialização para incluir também Back-end e Mobile no futuro.",
+    "skillsTitle": "Habilidades",
+    "skillsTexts": "Aqui estão algumas outras ferramentas que costumo utilizar ou já utilizei:",
+    "projectsTitle": "Projetos",
+    "projectTextIntercambyus": "Design feito por mim no Figma, consiste em um site de agência de intercâmbio e que possui responsividade para todos os tamanhos de tela. Projeto realizado utilizando React, Next, Typescript, Stitches, React-Hook-Form e Lottie (para as animações de loading e error).",
+    "projectTitleFinancial": "Sistema Financeiro",
+    "projectTextFinancial": "O projeto de sistema fincanceiro foi desenvolvido para fazer o controle mensal das finanças, podendo adicionar um gasto ou um ganho a cada mês, com a opção de excluir um item cadastrado caso necessário. O sistema possui reponsivdidade adequada para qualquer dispositivo e foi feito utilizando React, Typescript e Styled-Components.",
+    "galleryTitle": "Galeria de Fotos",
+    "galleryText": "Aplicação de galeria de fotos que armazena imagens no Firebase enviadas no formulário dos tipos PNG, JPG e JPEG e são exibidas pelo Front-end. O app possui responsividade completa e foi realizado utilizando, além do Firebase, o React, Typescript, Styled-Components e Lottie.",
+    "multiStepTitle": "Formulário Multi-Step",
+    "multiStepText": "Baseia-se em um sistema de login interativo com múltiplas etapas. O sistema contém 3 etapas e foi feito para cadastrar desenvolvedores. Foi utilizado React, Typescript e Styled Components.",
+    "experienceTitle": "Experiências",
+    "mainstreamPeriod": "(2022 - Presente)",
+    "mainstreamDescription": "Desde o início do projeto, atuo como Desenvolvedor Front-end, trabalhando em estreita colaboração com a equipe de back-end para realizar integrações de rotas. Atualmente, utilizo React e Next no desenvolvimento, juntamente com a ferramenta de estilização Stitches.",
+    "expTitleGithub": "Projetos Pessoais",
+    "expTextGithub": "Estudo e prática",
+    "expPeriodGithub": "(2021 - Presente)",
+    "githubDescription": "Desde maio de 2021, tenho me dedicado ao estudo e prática do desenvolvimento web, fortalecendo meus conhecimentos por meio da criação de projetos no GitHub."
   }
 }

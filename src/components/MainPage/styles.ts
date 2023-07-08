@@ -138,7 +138,6 @@ export const JobDescription = styled('div', {
   userSelect: 'none',
 
   marginTop: '5px',
-  marginLeft: '4px',
   padding: '5px',
 
   span: {
@@ -308,6 +307,10 @@ export const ArrowDown = styled('div', {
   zIndex: 2,
 
   animation: `${flutter} 2.5s infinite`,
+
+  '@media (max-width: 520px)': {
+    bottom: '32px',
+  },
 
   variants: {
     toggleSidebar: {
