@@ -1,8 +1,8 @@
-import { useLanguage } from '@/hooks/useLanguage'
+// import { useLanguage } from '@/hooks/useLanguage'
 import { ContactContainer } from './styles'
 
 export function Contact() {
-  const { t } = useLanguage()
+  // const { t } = useLanguage()
 
   return (
     <ContactContainer id="contact">
