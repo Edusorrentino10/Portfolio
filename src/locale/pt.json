@@ -30,6 +30,13 @@
     "expTitleGithub": "Projetos Pessoais",
     "expTextGithub": "Estudo e prática",
     "expPeriodGithub": "(2021 - Presente)",
-    "githubDescription": "Desde maio de 2021, tenho me dedicado ao estudo e prática do desenvolvimento web, fortalecendo meus conhecimentos por meio da criação de projetos no GitHub."
+    "githubDescription": "Desde maio de 2021, tenho me dedicado ao estudo e prática do desenvolvimento web, fortalecendo meus conhecimentos por meio da criação de projetos no GitHub.",
+    "socialMidia": "Contato",
+    "address": "Vila Velha, ES - Brasil",
+    "emailText": "Você consegue enviar um email diretamente por aqui.",
+    "nameContact": "Nome",
+    "sendContact": "Enviar",
+    "messageTitleContact": "Mensagem",
+    "messageTextContact": "Envie sua mensagem aqui..."
   }
 }

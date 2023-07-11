@@ -62,7 +62,12 @@ export function Projects() {
         {t('projectsTitle')}
       </motion.h1>
       <FlexBox isReverse={true}>
-        <Image className={ImagesStyles} src={intercambyusSVG} alt="" />
+        <Image
+          loading="eager"
+          className={ImagesStyles}
+          src={intercambyusSVG}
+          alt=""
+        />
         <BoxDescription>
           <ProjectTitle>IntercamByUs</ProjectTitle>
           <ProjectText>{t('projectTextIntercambyus')}</ProjectText>
@@ -104,7 +109,12 @@ export function Projects() {
               label="TypeScript"
               fontSize="sm"
             >
-              <Image className={TechStyles} src={TsSVG} alt="" />
+              <Image
+                loading="eager"
+                className={TechStyles}
+                src={TsSVG}
+                alt=""
+              />
             </Tooltip>
             <Tooltip
               bg={isDark ? '#F4F4F4' : '#252525'}
@@ -112,7 +122,12 @@ export function Projects() {
               label="React"
               fontSize="sm"
             >
-              <Image className={TechStyles} src={ReactSVG} alt="" />
+              <Image
+                loading="eager"
+                className={TechStyles}
+                src={ReactSVG}
+                alt=""
+              />
             </Tooltip>
             <Tooltip
               bg={isDark ? '#F4F4F4' : '#252525'}
@@ -140,7 +155,12 @@ export function Projects() {
               label="Stitches"
               fontSize="sm"
             >
-              <Image className={TechStyles} src={StitchesSVG} alt="" />
+              <Image
+                loading="eager"
+                className={TechStyles}
+                src={StitchesSVG}
+                alt=""
+              />
             </Tooltip>
           </div>
         </BoxDescription>
@@ -190,7 +210,12 @@ export function Projects() {
               label="TypeScript"
               fontSize="sm"
             >
-              <Image className={TechStyles} src={TsSVG} alt="" />
+              <Image
+                loading="eager"
+                className={TechStyles}
+                src={TsSVG}
+                alt=""
+              />
             </Tooltip>
             <Tooltip
               bg={isDark ? '#F4F4F4' : '#252525'}
@@ -198,7 +223,12 @@ export function Projects() {
               label="React"
               fontSize="sm"
             >
-              <Image className={TechStyles} src={ReactSVG} alt="" />
+              <Image
+                loading="eager"
+                className={TechStyles}
+                src={ReactSVG}
+                alt=""
+              />
             </Tooltip>
             <Tooltip
               bg={isDark ? '#F4F4F4' : '#252525'}
@@ -206,16 +236,31 @@ export function Projects() {
               label="Styled Components"
               fontSize="sm"
             >
-              <Image className={TechStyles} src={StyledComponentsSVG} alt="" />
+              <Image
+                loading="eager"
+                className={TechStyles}
+                src={StyledComponentsSVG}
+                alt=""
+              />
             </Tooltip>
           </div>
         </BoxDescription>
         <ResponsiveShortImageProject isShorter={true}>
-          <Image className={ImagesStyles} src={financialSystemSVG} alt="" />
+          <Image
+            loading="eager"
+            className={ImagesStyles}
+            src={financialSystemSVG}
+            alt=""
+          />
         </ResponsiveShortImageProject>
       </FlexBox>
       <FlexBox isReverse={true}>
-        <Image className={ImagesStyles} src={gallerySVG} alt="" />
+        <Image
+          loading="eager"
+          className={ImagesStyles}
+          src={gallerySVG}
+          alt=""
+        />
         <BoxDescription>
           <ProjectTitle>{t('galleryTitle')}</ProjectTitle>
           <ProjectText>{t('galleryText')}</ProjectText>
@@ -260,7 +305,12 @@ export function Projects() {
               label="TypeScript"
               fontSize="sm"
             >
-              <Image className={TechStyles} src={TsSVG} alt="" />
+              <Image
+                loading="eager"
+                className={TechStyles}
+                src={TsSVG}
+                alt=""
+              />
             </Tooltip>
             <Tooltip
               bg={isDark ? '#F4F4F4' : '#252525'}
@@ -268,7 +318,12 @@ export function Projects() {
               label="React"
               fontSize="sm"
             >
-              <Image className={TechStyles} src={ReactSVG} alt="" />
+              <Image
+                loading="eager"
+                className={TechStyles}
+                src={ReactSVG}
+                alt=""
+              />
             </Tooltip>
             <Tooltip
               bg={isDark ? '#F4F4F4' : '#252525'}
@@ -276,7 +331,12 @@ export function Projects() {
               label="Styled Components"
               fontSize="sm"
             >
-              <Image className={TechStyles} src={StyledComponentsSVG} alt="" />
+              <Image
+                loading="eager"
+                className={TechStyles}
+                src={StyledComponentsSVG}
+                alt=""
+              />
             </Tooltip>
             <Tooltip
               bg={isDark ? '#F4F4F4' : '#252525'}
@@ -284,7 +344,12 @@ export function Projects() {
               label="Firebase"
               fontSize="sm"
             >
-              <Image className={TechStyles} src={firebaseSVG} alt="" />
+              <Image
+                loading="eager"
+                className={TechStyles}
+                src={firebaseSVG}
+                alt=""
+              />
             </Tooltip>
           </div>
         </BoxDescription>
@@ -334,7 +399,12 @@ export function Projects() {
               label="TypeScript"
               fontSize="sm"
             >
-              <Image className={TechStyles} src={TsSVG} alt="" />
+              <Image
+                loading="eager"
+                className={TechStyles}
+                src={TsSVG}
+                alt=""
+              />
             </Tooltip>
             <Tooltip
               bg={isDark ? '#F4F4F4' : '#252525'}
@@ -342,7 +412,12 @@ export function Projects() {
               label="React"
               fontSize="sm"
             >
-              <Image className={TechStyles} src={ReactSVG} alt="" />
+              <Image
+                loading="eager"
+                className={TechStyles}
+                src={ReactSVG}
+                alt=""
+              />
             </Tooltip>
             <Tooltip
               bg={isDark ? '#F4F4F4' : '#252525'}
@@ -350,11 +425,21 @@ export function Projects() {
               label="Styled Components"
               fontSize="sm"
             >
-              <Image className={TechStyles} src={StyledComponentsSVG} alt="" />
+              <Image
+                loading="eager"
+                className={TechStyles}
+                src={StyledComponentsSVG}
+                alt=""
+              />
             </Tooltip>
           </div>
         </BoxDescription>
-        <Image className={ImagesStyles} src={multiStepSVG} alt="" />
+        <Image
+          loading="eager"
+          className={ImagesStyles}
+          src={multiStepSVG}
+          alt=""
+        />
       </FlexBox>
     </ProjectsContainer>
   )
