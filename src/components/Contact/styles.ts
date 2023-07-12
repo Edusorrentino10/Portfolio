@@ -2,7 +2,7 @@ import { css, styled } from '@/styles'
 
 export const FooterContainer = styled('div', {
   position: 'relative',
-  backgroundColor: '#1E1E1E',
+  backgroundColor: '$contactColor',
   overflowX: 'hidden',
   marginTop: '550px',
 

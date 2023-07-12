@@ -15,10 +15,13 @@ import { motion, useAnimation } from 'framer-motion'
 import { useEffect } from 'react'
 import Image from 'next/image'
 import mainstreamSVG from '@/assets/Mainstream.svg'
-import githubSVG from '@/assets/Github.svg'
+import githubDarkSVG from '@/assets/github-dark.svg'
+import githubLightSVG from '@/assets/github-light.svg'
+import { useTheme } from '@/contexts/useTheme'
 
 export function Experiences() {
   const { t } = useLanguage()
+  const { isDark } = useTheme()
 
   const { ref, inView } = useInView()
   const animation = useAnimation()
@@ -57,7 +60,7 @@ export function Experiences() {
         <Grid className={GridRight}>
           <Image
             style={{ margin: 'auto', marginBottom: '16px' }}
-            src={githubSVG}
+            src={isDark ? githubDarkSVG : githubLightSVG}
             alt=""
           />
           <ExpTitle>{t('expTitleGithub')}</ExpTitle>

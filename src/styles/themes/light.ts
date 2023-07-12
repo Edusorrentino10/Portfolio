@@ -12,5 +12,7 @@ export const lightTheme = createTheme({
 
     backgroundSkills: '#EAEAEA',
     backgroundGithub: 'rgba(110, 110, 110, 0.35)',
+
+    contactColor: '#EEEEEE',
   },
 })

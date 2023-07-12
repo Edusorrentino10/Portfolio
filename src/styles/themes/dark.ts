@@ -12,5 +12,7 @@ export const darkTheme = createTheme({
 
     backgroundSkills: '#2F2F2F',
     backgroundGithub: 'rgba(110, 110, 110, 0.95)',
+
+    contactColor: '#1E1E1E',
   },
 })
