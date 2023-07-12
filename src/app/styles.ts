@@ -27,6 +27,6 @@ export const Container = styled('div', {
 
   /* Handle on hover */
   '&::-webkit-scrollbar-thumb:hover': {
-    background: '#555',
+    background: '#555555',
   },
 })
