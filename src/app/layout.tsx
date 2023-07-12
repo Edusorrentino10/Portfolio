@@ -27,6 +27,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           id="stitches"
           dangerouslySetInnerHTML={{ __html: getCssText() }}
         />
+        <link rel="shortcut icon" type="image/svg" href="/favicon.svg" />
       </head>
       <body className={`${robotoFont.className}`}>
         <ThemeProvider>
