@@ -169,7 +169,7 @@ export const Content = styled('div', {
   marginTop: '50px',
 })
 
-export const BoxMidia = styled('div', {
+export const BoxMidia = styled('a', {
   cursor: 'pointer',
   backgroundColor: '$primary',
   padding: '10px',

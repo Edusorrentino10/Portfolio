@@ -31,7 +31,10 @@ export function Contact() {
       <Content>
         <SocialMidiaContent>
           <MidiaContent>
-            <BoxMidia>
+            <BoxMidia
+              href="https://www.linkedin.com/in/eduardo-sorrentino/"
+              target="_blank"
+            >
               <LinkedinLogo
                 className={MidiaStyles}
                 size={40}
@@ -39,7 +42,7 @@ export function Contact() {
                 weight="bold"
               />
             </BoxMidia>
-            <BoxMidia>
+            <BoxMidia href="https://github.com/Edusorrentino10" target="_blank">
               <GithubLogo
                 className={MidiaStyles}
                 size={40}
@@ -47,7 +50,10 @@ export function Contact() {
                 weight="bold"
               />
             </BoxMidia>
-            <BoxMidia>
+            <BoxMidia
+              href="https://web.whatsapp.com/send?phone=5527997947148"
+              target="_blank"
+            >
               <WhatsappLogo
                 className={MidiaStyles}
                 size={40}
@@ -55,7 +61,7 @@ export function Contact() {
                 weight="bold"
               />
             </BoxMidia>
-            <BoxMidia>
+            <BoxMidia href="mailto:eduardo.sorrentino5@gmail.com">
               <Envelope
                 className={MidiaStyles}
                 size={40}
