@@ -10,12 +10,17 @@ import { ThemeProvider } from '@/contexts/useTheme'
 
 import '@/lib/i18n'
 import { MenuMobileProvider } from '@/contexts/menuMobileContext'
+import { Metadata } from 'next'
 
 const robotoFont = Roboto({
   weight: ['400', '700'],
   subsets: ['latin'],
   variable: '--font-roboto',
 })
+
+export const metadata: Metadata = {
+  title: 'Edu | Portfolio',
+}
 
 globalStyles()
 
